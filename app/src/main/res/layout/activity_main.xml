@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              tools:context=".MainActivity"
+              android:orientation="vertical">
+
+
+	<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:orientation="horizontal"
+			android:layout_marginTop="10dp">
+
+		<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="Name"/>
+		<EditText
+				android:id="@+id/userName"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:hint="Your Name"
+				android:textSize="15sp"/>
+
+	</LinearLayout>
+
+	<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:orientation="horizontal"
+			android:gravity="center">
+
+		<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="match_parent"
+				android:text="College:"/>
+
+		<EditText
+				android:id="@+id/collegeName"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:hint="Enter Collage Name"
+				android:textSize="15sp"/>
+
+	</LinearLayout>
+
+	<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:orientation="horizontal"
+			android:gravity="center">
+
+		<Button
+				android:id="@+id/insertData"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="Insert"
+				android:layout_marginEnd="10sp"/>
+
+		<Button
+				android:id="@+id/displayData"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="Display"
+				android:layout_marginEnd="10sp"/>
+
+		<Button
+				android:id="@+id/exitApp"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="Exit"/>
+
+	</LinearLayout>
+
+</LinearLayout>
